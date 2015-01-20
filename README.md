@@ -21,7 +21,6 @@ var phantomjs = require('phantomjs-bin');
 console.log(phantomjs.path);
 // /Users/eugeneware/Dropbox/work/phantomjs-bin/bin/darwin/phantomjs
 ```
-```
 
 Currently supports Mac OS X (64-bit), Linux (32 and 64-bit) and Windows
 (32 and 64-bit).
