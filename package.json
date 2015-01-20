@@ -1,0 +1,23 @@
+{
+  "name": "phantomjs-bin",
+  "version": "1.0.0",
+  "description": "Static Binaries for phantomjs on Mac, Windows and Linux",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eugeneware/phantomjs-bin"
+  },
+  "keywords": ["phantomjs","binary","binaries","static","linux","mac","windows"],
+  "author": "Eugene Ware <eugene@noblesamurai.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/eugeneware/phantomjs-bin/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~2.3.2"
+  }
+}
