@@ -2,29 +2,17 @@ var os = require('os');
 var path = require('path');
 
 var platform = os.platform()
-if (platform !== 'linux' && platform !== 'darwin' && platform !== 'win32') {
+if (platform !== 'darwin' && platform !== 'linux') {
   console.error('Unsupported platform.');
   process.exit(1);
 }
 
 var arch = os.arch()
-if (platform === 'darwin' && arch !== 'x64') {
+if (arch !== 'x64') {
   console.error('Unsupported architecture.');
   process.exit(1);
 }
 
-var phantomjsPath = path.join(
-  __dirname,
-  'bin',
-  platform);
-
-if (platform === 'linux') {
-  phantomjsPath = path.join(phantomjsPath, arch);
-}
-
-phantomjsPath = path.join(
-  phantomjsPath,
-  platform === 'win32' ? 'phantomjs.exe' : 'phantomjs'
-);
+var phantomjsPath = path.join( __dirname, 'bin', platform, arch, 'phantomjs'); 
 
 exports.path = phantomjsPath;

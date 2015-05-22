@@ -1,6 +1,6 @@
 {
   "name": "phantomjs-bin",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Static Binaries for phantomjs on Mac, Windows and Linux",
   "main": "index.js",
   "scripts": {
