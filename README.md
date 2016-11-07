@@ -25,7 +25,7 @@ console.log(phantomjs.path);
 Currently supports Mac OS X (64-bit), Linux (32 and 64-bit) and Windows
 (32 and 64-bit).
 
-Currently version `1.9.8` is installed.
+Currently version `2.1.1` is installed.
 
 I pulled the versions from the
 [the official phantomjs download page](http://phantomjs.org/download.html):
