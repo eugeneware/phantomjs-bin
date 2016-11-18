@@ -14,7 +14,7 @@ $ npm install phantomjs-bin
 
 ## Example Usage
 
-Returns the path of a statically linked ffmpeg binary on the local filesystem.
+Returns the path of a statically linked phantomjs binary on the local filesystem.
 
 ``` js
 var phantomjs = require('phantomjs-bin');
@@ -30,4 +30,4 @@ Currently version `2.1.1` is installed.
 I pulled the versions from the
 [the official phantomjs download page](http://phantomjs.org/download.html):
 
-NB: Open to pull requests to update this module with the latest versions.
+NB: Open a pull request to update this module with the latest versions.
